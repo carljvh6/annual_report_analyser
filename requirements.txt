@@ -1,0 +1,64 @@
+# General Dependencies
+pandas
+ipykernel
+streamlit
+
+
+# Multimodal RAG System Dependencies
+# Core Document Processing
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+pdfplumber>=0.10.0
+openpyxl>=3.1.0
+unstructured[all-docs]>=0.10.0
+camelot-py
+
+# Image Processing and OCR
+Pillow>=10.0.0
+opencv-python>=4.8.0
+easyocr>=1.7.0
+pytesseract>=0.3.10
+
+# Vector Database and Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.2
+openai>=1.3.0
+transformers>=4.35.0
+torch>=2.1.0
+
+# # Text Processing and NLP
+# spacy>=3.7.0
+# nltk>=3.8.0
+# llama-index>=0.8.0
+# langchain>=0.1.0
+
+# # Web Framework and API
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# pydantic>=2.5.0
+
+# # Async Processing and Background Jobs
+# celery>=5.3.0
+# redis>=5.0.0
+
+# # Data Processing and Utilities
+# pandas>=2.1.0
+# numpy>=1.24.0
+# python-multipart>=0.0.6
+# aiofiles>=23.2.0
+
+# # Testing and Development
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# Optional: Vision Models for image understanding
+# torchvision>=0.16.0  # Uncomment if you plan to use custom vision models
+
+# Optional: Additional OCR engines
+# paddleocr>=2.7.0  # Alternative OCR engine
+
+# Optional: Advanced document processing
+# pdf2image>=1.16.0  # For converting PDF pages to images
+# mammoth>=1.6.0     # For better Word document parsing
